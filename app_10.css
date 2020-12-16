@@ -4,7 +4,7 @@
 body{font-family: 'Roboto Condensed','Montserrat', sans-serif;background-color: #000;}
 /*=== start header ===*/
 body header{width:100%;}
-body header .navbar{width: 85%;margin:0 auto;display: flex;justify-content: space-between;align-items: center;padding: 15px 0px;}
+body header .navbar{width: 85%;margin:0 auto;display: flex;justify-content: space-between;align-items: center;padding: 15px 0px 0px 0px;}
 body header .navbar img{width: 80px;margin: 15px 0px;height: 70px;}
 body header .navbar .content_right{display: flex;justify-content: space-between;align-items: center;}
 body header .navbar .content_right .list{margin-right: 80px;}
@@ -16,10 +16,11 @@ body header .navbar .content_right .inputs input{width: 130px;font-weight: bolde
     padding: 10px 0px;font-size:14.5px;border:none;transition:background-color .5s;}
 body header .navbar .content_right .inputs input[value="Register"]{background-color:#fff;color:#000;}
 body header .navbar .content_right .inputs input:hover{background-color:#fff;color:#000;}
+/*=== end header ===*/
 /*=== start section ===*/
-body .section{width: 100%;min-height: 200px;}
+body .section{width: 100%;margin-top: 35px;}
     /* start .container */
-body .section .container{width: 80%;margin:0 auto;min-height: inherit;position: relative;display: flex;align-items: center;}
+body .section .container{width: 80%;margin:0 auto;position: relative;display: flex;align-items: center;}
         /* start .content_left */
 body .section .container .content_left{display: flex;align-items: center;color: #fff;min-width: 50%;}
 body .section .container .content_left .content .line_content{display:flex;align-items: center;}
@@ -37,7 +38,7 @@ body .section .container .content_left .content .inputs .video_content:hover lab
 body .section .container .content_left .content .inputs .video_content:hover a{color: #FF5109;border-color:#FF5109;cursor: pointer;}
         /* start .back_gr_cercle */
 body .section .container .back_gr_cercle{width: 50%;perspective: 100px;max-height: 517px;}
-body .section .container .back_gr_cercle .cercle{max-width: 430px;min-height: 430px;background-image: linear-gradient(to left top, #e99657,#ff510a);position: relative;top: 50%;left: 50%;transform: translate(-50%,-0%);border-radius:50%;}
+body .section .container .back_gr_cercle .cercle{max-width: 430px;min-height: 430px;background-image: linear-gradient(to left top, #e7aa7b,#ff510a);position: relative;top: 50%;left: 50%;transform: translate(-50%,-0%);border-radius:50%;}
         /* start .inp_search */
 body .section .container .back_gr_cercle .inp_search{position: absolute;top: 65px;right: 0px;display: flex;align-items: center;background-color: rgb(255,255,255,.2);border-radius: 5px;backdrop-filter: blur(10px);transform: rotatey(1deg);}
 body .section .container .back_gr_cercle .inp_search a,input{background-color: transparent;color:#000;border: none;}
@@ -60,3 +61,18 @@ body .section .container .back_gr_cercle .card .container .content_bottom h4{fon
 body .section .container .back_gr_cercle .card .container .content_bottom h3 {font-size: 23px;}
 body .section .container .back_gr_cercle .card .container .content_bottom span{display: inline-block;font-size: 12px;margin-left: 70px;}
 body .section .container .back_gr_cercle .card .container .content_bottom span + h3{display: inline;font-size: 20px;}
+/*=== end section ===*/
+/*=== start footer ===*/
+body footer{width: 100%;margin-top: 30px;}
+body footer .container{width: 80%;margin:0 auto;display: flex;align-items: center;justify-content: space-between; }
+body footer .container .content_left{display: flex;align-items: center;}
+body footer .container .content_left a{font-size: 17px;background-image: linear-gradient(to right top, #e7aa7b,#ff510a);color: #fff;padding: 10px;transform: rotateY(-180deg);border-radius: 50%;}
+body footer .container .content_left .content{margin-left: 12px;}
+body footer .container .content_left .content h3{font-size: 14px;}
+body footer .container .content_left .content p{color: grey;font-size: 13px;}
+body footer .container .content_right{color:#fff;}
+body footer .container .content_right a{color:#fff;display: inline-block;font-size: 17px;}
+body footer .container .content_right a:first-child:hover{color: #3F729B;}
+body footer .container .content_right a:nth-child(2):hover{color: #4183c4;}
+body footer .container .content_right a:last-child:hover{color: #0976B4;}
+/*=== end footer ===*/
